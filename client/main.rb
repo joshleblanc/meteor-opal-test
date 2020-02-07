@@ -1,1 +1,3 @@
-p "Hello client2"
+p "KEPFME"
+
+p Links.find({})
