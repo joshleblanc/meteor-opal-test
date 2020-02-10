@@ -1,5 +1,3 @@
-p "KEPFME"
+require 'erb'
 
-p Links.find({}).fetch
-p Links.find_one({})
-
+MeteorOpal.mount(IndexController, `document.body`)
